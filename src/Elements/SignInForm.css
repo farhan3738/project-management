@@ -1,0 +1,74 @@
+/* SignUpForm.css */
+.sign-in-form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  }
+  
+  .sign-in-form h1 {
+  color: blue;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+  
+  .sign-in-form form {
+  color: #555;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+  }
+  
+  .sign-in-form label {
+  color: #555;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+  }
+  
+  .sign-in-form input[type="email"],
+  .sign-in-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+  letter-spacing: 2px;
+  }
+  
+  .sign-in-form input[type="text"]:focus,
+  .sign-in-form input[type="email"]:focus,
+  .sign-in-form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .sign-in-form button[type="submit"] {
+    background-color: #2d0fd6;
+    width: 100%;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .sign-in-form button[type="submit"]:hover {
+    background-color: #154c9f;
+  }
+  
+  .sign-in-form br {
+    margin-bottom: 10px;
+  }
+  

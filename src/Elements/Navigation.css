@@ -1,0 +1,76 @@
+/* Reset some default browser styles */
+body, div, button, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the entire navbar */
+  .nav-bar {
+    width: 100%;
+    background-color: white; /* Light background color for the navbar */
+    padding: 5px 0; /* Space around the navbar content */
+  }
+  
+  /* Style for the custom nav bar */
+  .custom-nav-bar {
+    display: flex;
+    justify-content: space-between; /* Space between the logo and the buttons */
+    align-items: center; /* Center items vertically */
+    max-width: 1200px; /* Maximum width of the navbar */
+    margin: 0 auto; /* Center the navbar horizontally */
+    padding: 0 20px; /* Space on the left and right of the navbar */
+    margin-top: 45px;
+  }
+  
+  /* Style for the logo */
+  .logo img {
+    height: 100px; /* Set the logo size */
+    width: 160px;
+  }
+  
+  /* From Uiverse.io by adamgiebl */ 
+  .button {
+    align-items: center;
+    appearance: none;
+    background-color: #EEF2FF;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #536DFE;
+    box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    color: #536DFE;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 45px;
+    justify-content: center;
+    line-height: 1;
+    padding: 0 20px; /* Adjusted padding to maintain the same size */
+    margin: 10px; /* Added margin to create space between buttons */
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 15px;
+    width: 150px; /* Set a fixed width to ensure buttons are the same size */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(83, 109, 254, 0.4) 0 2px 4px, rgba(83, 109, 254, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .button:hover {
+    box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px, rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  

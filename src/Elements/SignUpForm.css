@@ -1,0 +1,72 @@
+/* Style for the form container */
+.sign-up-form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading style */
+.sign-up-form h1 {
+  color: crimson;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Label styles */
+.sign-up-form label {
+  color: #555;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+/* Input styles */
+.sign-up-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+  letter-spacing: 2px;
+}
+
+/* Change border color on focus */
+.sign-up-form input:focus {
+  border-color: #180297;
+  outline: none;
+}
+
+/* Error message style */
+.sign-up-form .error {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button styles */
+.sign-up-form button {
+  width: 100%;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.sign-up-form button:hover {
+  background-color: #0056b3;
+}

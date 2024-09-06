@@ -1,0 +1,82 @@
+/* Container for the entire section */
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1300px;
+    margin-bottom: 60px;
+    background-color: rgb(250, 244, 244);
+    background-size: cover;
+    height: 85vh; /* Full viewport height */
+}
+
+/* To ensure the hero section is centered horizontally and vertically */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the text content */
+.text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+    margin-bottom: 120px;
+}
+
+/* Change color of h2 */
+.text-content h1 {
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for the button */
+.button {
+    margin-top: 20px; /* Add some space between text and button */
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for the image content */
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 70%;
+    height: 120%;
+    border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-section {
+        flex-direction: column;
+        text-align: center;
+        height: auto; /* Adjust height on smaller screens */
+        padding: 40px 20px; /* Additional padding for better spacing */
+    }
+
+    .text-content {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .image-content img {
+        width: 80%;
+    }
+}
